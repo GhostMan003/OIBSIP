@@ -1,0 +1,29 @@
+package ATM.Interface.System;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+
+public class ConnectionManager {
+
+    Connection connection;
+    Statement statement;
+
+    public ConnectionManager() {
+        String urlString = "jdbc:mysql:///systemofbankmanagement";
+        final String username = "root";
+        final String password = "neo@4321";
+
+        try {
+            // 1. Register the Driver
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            // 2. Create Connection
+            connection = DriverManager.getConnection(urlString, username, password);
+            // 3. Create statement
+            statement = connection.createStatement();
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+    }
+
+}
