@@ -111,7 +111,6 @@ public class Round_3 extends JFrame implements ActionListener {
     private void resetGame() {
         setVisible(false);
         new Starting_Interface().setVisible(true);
-        ;
     }
 
     // public static void main(String[] args) {
