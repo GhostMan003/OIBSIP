@@ -113,9 +113,4 @@ public class Round_2 extends JFrame implements ActionListener {
         setVisible(false);
         new Starting_Interface().setVisible(true);
     }
-
-    // public static void main(String[] args) {
-    // new Round_2("");
-    // }
-
 }
