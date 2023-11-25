@@ -1,5 +1,5 @@
 # OIBSIP
-Oasis Infobyte Internship Projects
+Oasis Infobyte Internship
 
 This is a Java development internship. Here are two tasks I completed.
 
