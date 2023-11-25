@@ -82,8 +82,4 @@ public class CheckBalance extends JFrame implements ActionListener {
         new MoneyTranction(pinNO, bankString, cardNO).setVisible(true);
     }
 
-    // public static void main(String[] args) {
-    //     new CheckBalance("","","");
-    // }
-
 }
