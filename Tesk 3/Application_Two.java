@@ -192,7 +192,4 @@ public class Application_Two extends JFrame implements ActionListener {
         }
     }
 
-    // public static void main(String[] args) throws Exception {
-    //     new Application_Two("");
-    // }
 }
