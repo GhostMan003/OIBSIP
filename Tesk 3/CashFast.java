@@ -172,7 +172,4 @@ public class CashFast extends JFrame implements ActionListener {
 
     }
 
-    // public static void main(String[] args) {
-    //     new CashFast("","","");
-    // }
 }
