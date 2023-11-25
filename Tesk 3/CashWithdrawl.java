@@ -136,7 +136,4 @@ public class CashWithdrawl extends JFrame implements ActionListener {
 
     }
 
-    // public static void main(String[] args) {
-    //     new CashWithdrawl("","","");
-    // }
 }
