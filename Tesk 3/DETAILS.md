@@ -34,5 +34,8 @@ If you click the BALANCE feature, it will show your current balance. CheckBalanc
 If you click the E-STATEMENT feature, it will show you the mini-statement (last 5 transactions) and the max-statement (last 10 transactions). CheckStatement.java MiniStatement.java E_Statement.java
 ![image](https://github.com/GhostMan003/OIBSIP/assets/122271680/86f50ef5-7472-453e-ba7d-85b87ccb3464)
 
+Click the BACK button to return to the ATM interface.
+![image](https://github.com/GhostMan003/OIBSIP/assets/122271680/8a11045b-8dea-4450-9560-daee09d02c95)
+
 If you click the EXIT, it will return you to the ATM login page.
 
