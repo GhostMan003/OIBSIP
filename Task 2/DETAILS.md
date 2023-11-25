@@ -14,3 +14,6 @@ higher or lower than the generated number.
 The technology used in this project is:
 1. Java Swing
 2. Java AWT
+
+How the program works:
+Starting_Interface > Round 1 > Round 2 > Round 3 > Round 4 > Round 5 > (back to) Starting_Interface.
