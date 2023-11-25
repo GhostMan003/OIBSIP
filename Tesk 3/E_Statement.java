@@ -67,7 +67,4 @@ public class E_Statement extends JFrame {
         setVisible(true);
     }
 
-    // public static void main(String[] args) {
-    // new E_Statement("","","");
-    // }
 }
