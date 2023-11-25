@@ -242,14 +242,15 @@ public class Application_Three extends JFrame implements ActionListener {
             }
 
         } else if (ac.getSource() == cancel) {
+            //If click cancel then this command will delete all details you have entered.
             try {
-                // ConnectionManager connectionManager = new ConnectionManager();
-                // String quary1_del = "delete from Application_One where From_NO =
-                // '"+fromNoString+"')";
-                // String quary2_del = "delete from Application_Two where From_NO =
-                // '"+fromNoString+"')";
-                // connectionManager.statement.executeUpdate(quary1_del);
-                // connectionManager.statement.executeUpdate(quary2_del);
+                 ConnectionManager connectionManager = new ConnectionManager();
+                 String quary1_del = "delete from Application_One where From_NO =
+                 '"+fromNoString+"')";
+                 String quary2_del = "delete from Application_Two where From_NO =
+                 '"+fromNoString+"')";
+                 connectionManager.statement.executeUpdate(quary1_del);
+                 connectionManager.statement.executeUpdate(quary2_del);
 
                 setVisible(false);
                 new Log_in().setVisible(true);
@@ -260,7 +261,4 @@ public class Application_Three extends JFrame implements ActionListener {
         }
     }
 
-    // public static void main(String[] args) {
-    //     new Application_Three("");
-    // }
 }
