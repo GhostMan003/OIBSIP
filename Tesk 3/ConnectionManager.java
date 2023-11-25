@@ -10,9 +10,9 @@ public class ConnectionManager {
     Statement statement;
 
     public ConnectionManager() {
-        String urlString = "jdbc:mysql:///systemofbankmanagement";
-        final String username = "root";
-        final String password = "neo@4321";
+        String urlString = "jdbc:mysql:///<database name>";
+        final String username = "<uesr>";
+        final String password = "<password>";
 
         try {
             // 1. Register the Driver
