@@ -16,7 +16,7 @@ After creating a new account, you have to deposit some money. CashDeposite.java
 Now come back to the log-in page and enter your card number and PIN Choose your bank name, and then you will be able to see all ATM features. MoneyTransction.java
 ![image](https://github.com/GhostMan003/OIBSIP/assets/122271680/8a11045b-8dea-4450-9560-daee09d02c95)
 
-If you click the DEPOSIT feature, enter the amount you want to withdraw. CashDeposite.java
+If you click the DEPOSIT feature, enter the amount you want to deposit. CashDeposite.java
 ![image](https://github.com/GhostMan003/OIBSIP/assets/122271680/6f85703e-f553-43d6-b2c9-d6634c9f67c6)
 
 If you click the WITHDRAW feature, enter the amount you want to withdraw. CashWithdrawl.java
