@@ -48,3 +48,4 @@ The technology used in this project is:
 2. Java AWT
 3. Java SQL
 4. MYSQL server
+5. Maven 
